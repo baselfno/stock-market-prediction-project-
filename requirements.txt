@@ -1,0 +1,10 @@
+pystan==2.19.1.1
+fbprophet==0.7.1
+tensorflow==2.10.1
+keras
+statsmodels
+scikit-learn
+matplotlib
+seaborn
+Pillow
+opencv-python
