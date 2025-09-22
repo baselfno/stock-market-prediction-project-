@@ -1,11 +1,11 @@
-# 📈 Saudi Stock Prediction — Simple GUI (Prophet & LSTM)
+# 📈 Saudi Stock Prediction 
 
 ## Overview
 A desktop GUI (Tkinter) for **predicting Saudi stock prices** using multiple time-series models:
-- **FB-Prophet (Linear)** and **FB-Prophet (Logistic)**, with plots and MSE, and export of forecast images. :contentReference[oaicite:0]{index=0}  
-- **LSTM** sequence model that loads a pre-trained weight file and plots predicted vs. original prices with MSE. :contentReference[oaicite:1]{index=1}
+- **FB-Prophet (Linear)** and **FB-Prophet (Logistic)**, with plots and MSE, and export of forecast images. 
+- **LSTM** sequence model that loads a pre-trained weight file and plots predicted vs. original prices with MSE. 
 
-The app lets you **log in**, pick a **company CSV** from `csv/`, select a **model**, choose a **prediction period (days)**, and view/save result images in `img/`. :contentReference[oaicite:2]{index=2}
+The app lets you **log in**, pick a **company CSV** from `csv/`, select a **model**, choose a **prediction period (days)**, and view/save result images in `img/`. 
 The app plots **actual vs. predicted** prices, shows **MSE/MAE**, and saves images to `img/`.
 
 Models available:
